@@ -34,7 +34,7 @@ Gem::Specification.new do |s| # rubocop:disable Metrics/BlockLength
 
   s.add_runtime_dependency 'sensu-plugin', '~> 4.0'
 
-  s.add_runtime_dependency 'aws-sdk', '~> 2.3'
+  s.add_runtime_dependency 'aws-sdk', '>= 2.3', '< 4.0'
   s.add_runtime_dependency 'rest-client', '~> 2.0.2'
 
   s.add_development_dependency 'bundler',                   '~> 1.7'
